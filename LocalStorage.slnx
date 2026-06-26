@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="LocalStorage/LocalStorage.csproj" Id="8f7c26f1-958a-405d-8d82-c6f0a7237ff3" />
+  <Project Path="PreferencesLocalStorage/PreferencesLocalStorage.csproj" Id="f0df1a4a-d443-48a4-be22-2f3129535365" />
+  <Project Path="SQLiteStorage/SQLiteStorage.csproj" Id="27a665e5-d2ba-4693-879b-65e02be4a5e4" />
+</Solution>
