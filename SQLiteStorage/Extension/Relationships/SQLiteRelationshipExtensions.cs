@@ -229,7 +229,7 @@ public static class SQLiteRelationshipExtensions
             // =========================
             if (!rel.IsCollection)
             {
-                var fkValue = (Guid)rel.ForeignKeyGetterOnParent?.Invoke(entity);
+                var fkValue = (Guid)rel.ForeignKeyGetterOnParent?.Invoke(entity)!;
 
                 if (fkValue != Guid.Empty)
                     continue;
